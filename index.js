@@ -40,3 +40,9 @@ function removeLastKitten(name){
   copyKittens.pop()
   return copyKittens
 }
+
+function removeFirstKitten(name){
+  var copyKittens = [...kittens]
+  copyKittens.shift(name)
+  return copyKittens
+}
