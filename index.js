@@ -33,3 +33,10 @@ function prependKitten(name){
   copyKittens.unshift(name)
   return copyKittens
 }
+
+
+function removeKitten(name){
+  var copyKittens = [...kittens]
+  copyKittens.pop(name)
+  return copyKittens
+}
