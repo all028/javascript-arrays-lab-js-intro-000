@@ -27,3 +27,9 @@ function appendKitten(name){
   copyKittens.push(name)
   return copyKittens
 }
+
+function prependKitten(name){
+  var copyKittens = [...kittens]
+  copyKittens.shift(name)
+  return copyKittens
+}
